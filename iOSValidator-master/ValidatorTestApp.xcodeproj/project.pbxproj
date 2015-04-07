@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A39F7CC1604A49F000A9B8A /* Rule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A39F7C51604A49F000A9B8A /* Rule.m */; };
+		1A39F7CD1604A49F000A9B8A /* Rules.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A39F7C71604A49F000A9B8A /* Rules.m */; };
+		1A39F7CE1604A49F000A9B8A /* Validator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A39F7C91604A49F000A9B8A /* Validator.m */; };
+		1A39F7CF1604A49F000A9B8A /* ValidatorRules.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A39F7CB1604A49F000A9B8A /* ValidatorRules.m */; };
+		1A39F7DD1604A4B0000A9B8A /* InvalidTooltipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A39F7D21604A4B0000A9B8A /* InvalidTooltipView.m */; };
+		1A39F7DE1604A4B0000A9B8A /* TooltipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A39F7D41604A4B0000A9B8A /* TooltipView.m */; };
+		1A39F7DF1604A4B0000A9B8A /* image_tooltip_invalid.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F7D61604A4B0000A9B8A /* image_tooltip_invalid.png */; };
+		1A39F7E01604A4B0000A9B8A /* image_tooltip_invalid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F7D71604A4B0000A9B8A /* image_tooltip_invalid@2x.png */; };
+		1A39F7E11604A4B0000A9B8A /* image_tooltip_valid.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F7D81604A4B0000A9B8A /* image_tooltip_valid.png */; };
+		1A39F7E21604A4B0000A9B8A /* image_tooltip_valid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F7D91604A4B0000A9B8A /* image_tooltip_valid@2x.png */; };
+		1A39F7E31604A4B0000A9B8A /* ValidTooltipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A39F7DC1604A4B0000A9B8A /* ValidTooltipView.m */; };
+		1A802A0D16046A200063D25B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A802A0C16046A200063D25B /* QuartzCore.framework */; };
+		1A8B90C61602F696006BD82E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B90C51602F696006BD82E /* UIKit.framework */; };
+		1A8B90C81602F696006BD82E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B90C71602F696006BD82E /* Foundation.framework */; };
+		1A8B90CA1602F696006BD82E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B90C91602F696006BD82E /* CoreGraphics.framework */; };
+		1A8B90D01602F696006BD82E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A8B90CE1602F696006BD82E /* InfoPlist.strings */; };
+		1A8B90D21602F696006BD82E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B90D11602F696006BD82E /* main.m */; };
+		1A8B90D61602F696006BD82E /* ValidatorTestAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B90D51602F696006BD82E /* ValidatorTestAppAppDelegate.m */; };
+		1A8B90D91602F697006BD82E /* ValidatorTestAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B90D81602F697006BD82E /* ValidatorTestAppViewController.m */; };
+		1A8B91081602F8BD006BD82E /* ValidatorTestAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A8B91061602F8BD006BD82E /* ValidatorTestAppViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A39F7C41604A49F000A9B8A /* Rule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rule.h; path = "Validator Framework/Rule.h"; sourceTree = "<group>"; };
+		1A39F7C51604A49F000A9B8A /* Rule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Rule.m; path = "Validator Framework/Rule.m"; sourceTree = "<group>"; };
+		1A39F7C61604A49F000A9B8A /* Rules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rules.h; path = "Validator Framework/Rules.h"; sourceTree = "<group>"; };
+		1A39F7C71604A49F000A9B8A /* Rules.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Rules.m; path = "Validator Framework/Rules.m"; sourceTree = "<group>"; };
+		1A39F7C81604A49F000A9B8A /* Validator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Validator.h; path = "Validator Framework/Validator.h"; sourceTree = "<group>"; };
+		1A39F7C91604A49F000A9B8A /* Validator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Validator.m; path = "Validator Framework/Validator.m"; sourceTree = "<group>"; };
+		1A39F7CA1604A49F000A9B8A /* ValidatorRules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ValidatorRules.h; path = "Validator Framework/ValidatorRules.h"; sourceTree = "<group>"; };
+		1A39F7CB1604A49F000A9B8A /* ValidatorRules.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ValidatorRules.m; path = "Validator Framework/ValidatorRules.m"; sourceTree = "<group>"; };
+		1A39F7D11604A4B0000A9B8A /* InvalidTooltipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InvalidTooltipView.h; path = "Validator Framework/ToolTipView/InvalidTooltipView.h"; sourceTree = "<group>"; };
+		1A39F7D21604A4B0000A9B8A /* InvalidTooltipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InvalidTooltipView.m; path = "Validator Framework/ToolTipView/InvalidTooltipView.m"; sourceTree = "<group>"; };
+		1A39F7D31604A4B0000A9B8A /* TooltipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TooltipView.h; path = "Validator Framework/ToolTipView/TooltipView.h"; sourceTree = "<group>"; };
+		1A39F7D41604A4B0000A9B8A /* TooltipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TooltipView.m; path = "Validator Framework/ToolTipView/TooltipView.m"; sourceTree = "<group>"; };
+		1A39F7D61604A4B0000A9B8A /* image_tooltip_invalid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image_tooltip_invalid.png; path = "Validator Framework/ToolTipView/ToolTipViewImages/image_tooltip_invalid.png"; sourceTree = "<group>"; };
+		1A39F7D71604A4B0000A9B8A /* image_tooltip_invalid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image_tooltip_invalid@2x.png"; path = "Validator Framework/ToolTipView/ToolTipViewImages/image_tooltip_invalid@2x.png"; sourceTree = "<group>"; };
+		1A39F7D81604A4B0000A9B8A /* image_tooltip_valid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image_tooltip_valid.png; path = "Validator Framework/ToolTipView/ToolTipViewImages/image_tooltip_valid.png"; sourceTree = "<group>"; };
+		1A39F7D91604A4B0000A9B8A /* image_tooltip_valid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image_tooltip_valid@2x.png"; path = "Validator Framework/ToolTipView/ToolTipViewImages/image_tooltip_valid@2x.png"; sourceTree = "<group>"; };
+		1A39F7DA1604A4B0000A9B8A /* TooltipViewPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TooltipViewPrivate.h; path = "Validator Framework/ToolTipView/TooltipViewPrivate.h"; sourceTree = "<group>"; };
+		1A39F7DB1604A4B0000A9B8A /* ValidTooltipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ValidTooltipView.h; path = "Validator Framework/ToolTipView/ValidTooltipView.h"; sourceTree = "<group>"; };
+		1A39F7DC1604A4B0000A9B8A /* ValidTooltipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ValidTooltipView.m; path = "Validator Framework/ToolTipView/ValidTooltipView.m"; sourceTree = "<group>"; };
+		1A802A0C16046A200063D25B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1A8B90C11602F696006BD82E /* ValidatorTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValidatorTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8B90C51602F696006BD82E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A8B90C71602F696006BD82E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A8B90C91602F696006BD82E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A8B90CD1602F696006BD82E /* ValidatorTestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ValidatorTestApp-Info.plist"; sourceTree = "<group>"; };
+		1A8B90CF1602F696006BD82E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A8B90D11602F696006BD82E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A8B90D31602F696006BD82E /* ValidatorTestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ValidatorTestApp-Prefix.pch"; sourceTree = "<group>"; };
+		1A8B90D41602F696006BD82E /* ValidatorTestAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidatorTestAppAppDelegate.h; sourceTree = "<group>"; };
+		1A8B90D51602F696006BD82E /* ValidatorTestAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidatorTestAppAppDelegate.m; sourceTree = "<group>"; };
+		1A8B90D71602F696006BD82E /* ValidatorTestAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidatorTestAppViewController.h; sourceTree = "<group>"; };
+		1A8B90D81602F697006BD82E /* ValidatorTestAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidatorTestAppViewController.m; sourceTree = "<group>"; };
+		1A8B91061602F8BD006BD82E /* ValidatorTestAppViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ValidatorTestAppViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A8B90BE1602F696006BD82E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A802A0D16046A200063D25B /* QuartzCore.framework in Frameworks */,
+				1A8B90C61602F696006BD82E /* UIKit.framework in Frameworks */,
+				1A8B90C81602F696006BD82E /* Foundation.framework in Frameworks */,
+				1A8B90CA1602F696006BD82E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A8B90B61602F693006BD82E = {
+			isa = PBXGroup;
+			children = (
+				1A8B91021602F745006BD82E /* Validator */,
+				1A8B90CB1602F696006BD82E /* ValidatorTestApp */,
+				1A8B90C41602F696006BD82E /* Frameworks */,
+				1A8B90C21602F696006BD82E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A8B90C21602F696006BD82E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A8B90C11602F696006BD82E /* ValidatorTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A8B90C41602F696006BD82E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A802A0C16046A200063D25B /* QuartzCore.framework */,
+				1A8B90C51602F696006BD82E /* UIKit.framework */,
+				1A8B90C71602F696006BD82E /* Foundation.framework */,
+				1A8B90C91602F696006BD82E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A8B90CB1602F696006BD82E /* ValidatorTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				1A8B90D41602F696006BD82E /* ValidatorTestAppAppDelegate.h */,
+				1A8B90D51602F696006BD82E /* ValidatorTestAppAppDelegate.m */,
+				1A8B90D71602F696006BD82E /* ValidatorTestAppViewController.h */,
+				1A8B90D81602F697006BD82E /* ValidatorTestAppViewController.m */,
+				1A8B91061602F8BD006BD82E /* ValidatorTestAppViewController.xib */,
+				1A8B90CC1602F696006BD82E /* Supporting Files */,
+			);
+			path = ValidatorTestApp;
+			sourceTree = "<group>";
+		};
+		1A8B90CC1602F696006BD82E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A8B90CD1602F696006BD82E /* ValidatorTestApp-Info.plist */,
+				1A8B90CE1602F696006BD82E /* InfoPlist.strings */,
+				1A8B90D11602F696006BD82E /* main.m */,
+				1A8B90D31602F696006BD82E /* ValidatorTestApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A8B91001602F733006BD82E /* ToolTipImages */ = {
+			isa = PBXGroup;
+			children = (
+				1A39F7D61604A4B0000A9B8A /* image_tooltip_invalid.png */,
+				1A39F7D71604A4B0000A9B8A /* image_tooltip_invalid@2x.png */,
+				1A39F7D81604A4B0000A9B8A /* image_tooltip_valid.png */,
+				1A39F7D91604A4B0000A9B8A /* image_tooltip_valid@2x.png */,
+			);
+			name = ToolTipImages;
+			sourceTree = "<group>";
+		};
+		1A8B91011602F73E006BD82E /* ToolTipView */ = {
+			isa = PBXGroup;
+			children = (
+				1A8B91001602F733006BD82E /* ToolTipImages */,
+				1A39F7D11604A4B0000A9B8A /* InvalidTooltipView.h */,
+				1A39F7D21604A4B0000A9B8A /* InvalidTooltipView.m */,
+				1A39F7D31604A4B0000A9B8A /* TooltipView.h */,
+				1A39F7D41604A4B0000A9B8A /* TooltipView.m */,
+				1A39F7DA1604A4B0000A9B8A /* TooltipViewPrivate.h */,
+				1A39F7DB1604A4B0000A9B8A /* ValidTooltipView.h */,
+				1A39F7DC1604A4B0000A9B8A /* ValidTooltipView.m */,
+			);
+			name = ToolTipView;
+			sourceTree = "<group>";
+		};
+		1A8B91021602F745006BD82E /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+				1A8B91011602F73E006BD82E /* ToolTipView */,
+				1A8B91031602F782006BD82E /* ValidatorClasses */,
+			);
+			name = Validator;
+			sourceTree = "<group>";
+		};
+		1A8B91031602F782006BD82E /* ValidatorClasses */ = {
+			isa = PBXGroup;
+			children = (
+				1A39F7C41604A49F000A9B8A /* Rule.h */,
+				1A39F7C51604A49F000A9B8A /* Rule.m */,
+				1A39F7C61604A49F000A9B8A /* Rules.h */,
+				1A39F7C71604A49F000A9B8A /* Rules.m */,
+				1A39F7C81604A49F000A9B8A /* Validator.h */,
+				1A39F7C91604A49F000A9B8A /* Validator.m */,
+				1A39F7CA1604A49F000A9B8A /* ValidatorRules.h */,
+				1A39F7CB1604A49F000A9B8A /* ValidatorRules.m */,
+			);
+			name = ValidatorClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A8B90C01602F696006BD82E /* ValidatorTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A8B90DF1602F697006BD82E /* Build configuration list for PBXNativeTarget "ValidatorTestApp" */;
+			buildPhases = (
+				1A8B90BD1602F696006BD82E /* Sources */,
+				1A8B90BE1602F696006BD82E /* Frameworks */,
+				1A8B90BF1602F696006BD82E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ValidatorTestApp;
+			productName = ValidatorTestApp;
+			productReference = 1A8B90C11602F696006BD82E /* ValidatorTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A8B90B81602F693006BD82E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1A8B90BB1602F693006BD82E /* Build configuration list for PBXProject "ValidatorTestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A8B90B61602F693006BD82E;
+			productRefGroup = 1A8B90C21602F696006BD82E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A8B90C01602F696006BD82E /* ValidatorTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A8B90BF1602F696006BD82E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8B90D01602F696006BD82E /* InfoPlist.strings in Resources */,
+				1A8B91081602F8BD006BD82E /* ValidatorTestAppViewController.xib in Resources */,
+				1A39F7DF1604A4B0000A9B8A /* image_tooltip_invalid.png in Resources */,
+				1A39F7E01604A4B0000A9B8A /* image_tooltip_invalid@2x.png in Resources */,
+				1A39F7E11604A4B0000A9B8A /* image_tooltip_valid.png in Resources */,
+				1A39F7E21604A4B0000A9B8A /* image_tooltip_valid@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A8B90BD1602F696006BD82E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8B90D21602F696006BD82E /* main.m in Sources */,
+				1A8B90D61602F696006BD82E /* ValidatorTestAppAppDelegate.m in Sources */,
+				1A8B90D91602F697006BD82E /* ValidatorTestAppViewController.m in Sources */,
+				1A39F7CC1604A49F000A9B8A /* Rule.m in Sources */,
+				1A39F7CD1604A49F000A9B8A /* Rules.m in Sources */,
+				1A39F7CE1604A49F000A9B8A /* Validator.m in Sources */,
+				1A39F7CF1604A49F000A9B8A /* ValidatorRules.m in Sources */,
+				1A39F7DD1604A4B0000A9B8A /* InvalidTooltipView.m in Sources */,
+				1A39F7DE1604A4B0000A9B8A /* TooltipView.m in Sources */,
+				1A39F7E31604A4B0000A9B8A /* ValidTooltipView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A8B90CE1602F696006BD82E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A8B90CF1602F696006BD82E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A8B90DD1602F697006BD82E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A8B90DE1602F697006BD82E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A8B90E01602F697006BD82E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ValidatorTestApp/ValidatorTestApp-Prefix.pch";
+				INFOPLIST_FILE = "ValidatorTestApp/ValidatorTestApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A8B90E11602F697006BD82E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ValidatorTestApp/ValidatorTestApp-Prefix.pch";
+				INFOPLIST_FILE = "ValidatorTestApp/ValidatorTestApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A8B90BB1602F693006BD82E /* Build configuration list for PBXProject "ValidatorTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A8B90DD1602F697006BD82E /* Debug */,
+				1A8B90DE1602F697006BD82E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A8B90DF1602F697006BD82E /* Build configuration list for PBXNativeTarget "ValidatorTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A8B90E01602F697006BD82E /* Debug */,
+				1A8B90E11602F697006BD82E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A8B90B81602F693006BD82E /* Project object */;
+}

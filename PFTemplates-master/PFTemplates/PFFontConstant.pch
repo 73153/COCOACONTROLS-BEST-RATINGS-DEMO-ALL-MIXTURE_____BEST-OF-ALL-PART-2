@@ -1,0 +1,28 @@
+//
+//  FontConstant.pch
+//  20lines
+//
+//  Created by Paolo Furlan on 04/09/14.
+//  Copyright (c) 2014 Paolo Furlan. All rights reserved.
+//
+
+#ifndef _0lines_FontConstant_pch
+#define _0lines_FontConstant_pch
+
+#define fontGeorgia(sizeNro) [UIFont fontWithName:@"Georgia" size:sizeNro]
+#define fontGeorgiaBold(sizeNro) [UIFont fontWithName:@"Georgia-Bold" size:sizeNro]
+
+#define fontHelveticaNeue(sizeNro) [UIFont fontWithName:@"HelveticaNeue" size:sizeNro]
+#define fontHelveticaNeueLight(sizeNro) [UIFont fontWithName:@"HelveticaNeue-Light" size:sizeNro]
+#define fontHelveticaNeueBold(sizeNro) [UIFont fontWithName:@"HelveticaNeue-Bold" size:sizeNro]
+#define fontHelveticaNeueMedium(sizeNro) [UIFont fontWithName:@"HelveticaNeue-Medium" size:sizeNro]
+#define fontHelveticaNeueItalic(sizeNro) [UIFont fontWithName:@"HelveticaNeue-Italic" size:sizeNro]
+
+#define fontMerriweather(sizeNro) [UIFont fontWithName:@"Merriweather" size:sizeNro]
+#define fontMerriweatherLight(sizeNro) [UIFont fontWithName:@"Merriweather-Light" size:sizeNro]
+#define fontMerriweatherBold(sizeNro) [UIFont fontWithName:@"Merriweather-Bold" size:sizeNro]
+#define fontMerriweatherHeavy(sizeNro) [UIFont fontWithName:@"Merriweather-Heavy" size:sizeNro]
+#define fontMerriweatherHeavyItalic(sizeNro) [UIFont fontWithName:@"Merriweather-HeavyItalic" size:sizeNro]
+#define fontMerriweatherItalic(sizeNro) [UIFont fontWithName:@"Merriweather-Italic" size:sizeNro]
+
+#endif

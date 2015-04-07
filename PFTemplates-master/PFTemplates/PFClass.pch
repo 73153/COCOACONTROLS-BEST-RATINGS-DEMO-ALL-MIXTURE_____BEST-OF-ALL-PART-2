@@ -1,0 +1,23 @@
+//
+//  TLClass.pch
+//  20lines
+//
+//  Created by Paolo Furlan on 11/09/14.
+//  Copyright (c) 2014 Paolo Furlan. All rights reserved.
+//
+
+#ifndef _0lines_TLClass_pch
+#define _0lines_TLClass_pch
+
+#import "PFUtils.h"
+
+#import "PFBackBtn.h"
+#import "PFTitleLbl.h"
+#import "PFNextBtn.h"
+
+
+#import "PFImageView.h"
+#import "PFScrollView.h"
+
+
+#endif

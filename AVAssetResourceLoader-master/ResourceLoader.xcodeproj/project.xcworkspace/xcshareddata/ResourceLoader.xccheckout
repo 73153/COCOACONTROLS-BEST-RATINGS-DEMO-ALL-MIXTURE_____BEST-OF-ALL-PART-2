@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>95BAAEC1-110B-4F38-A849-E532DB692711</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ResourceLoader</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EDFE0D647E29248173732968B7F85C94F31FAEC3</key>
+		<string>https://github.com/leshkoapps/AVAssetResourceLoader.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ResourceLoader.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EDFE0D647E29248173732968B7F85C94F31FAEC3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/leshkoapps/AVAssetResourceLoader.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EDFE0D647E29248173732968B7F85C94F31FAEC3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EDFE0D647E29248173732968B7F85C94F31FAEC3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AVAssetResourceLoader</string>
+		</dict>
+	</array>
+</dict>
+</plist>

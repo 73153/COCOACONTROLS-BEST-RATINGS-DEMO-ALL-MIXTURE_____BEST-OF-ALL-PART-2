@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>50EB2F35-0A43-4FE6-AF1E-3D426DE58852</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Podcasts</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>85B2DC01-FD15-4B43-9633-0C932422B127</key>
+		<string>https://github.com/instaply/What-s-New.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Demo Apps/Podcasts/Podcasts.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>85B2DC01-FD15-4B43-9633-0C932422B127</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/instaply/What-s-New.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>85B2DC01-FD15-4B43-9633-0C932422B127</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>85B2DC01-FD15-4B43-9633-0C932422B127</string>
+			<key>IDESourceControlWCCName</key>
+			<string>What-s-New</string>
+		</dict>
+	</array>
+</dict>
+</plist>

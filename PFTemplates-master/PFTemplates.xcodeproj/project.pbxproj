@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAE727951A1171A600EB2CEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE727941A1171A600EB2CEF /* main.m */; };
+		EAE727981A1171A600EB2CEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE727971A1171A600EB2CEF /* AppDelegate.m */; };
+		EAE7279E1A1171A600EB2CEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE7279C1A1171A600EB2CEF /* Main.storyboard */; };
+		EAE727A01A1171A600EB2CEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE7279F1A1171A600EB2CEF /* Images.xcassets */; };
+		EAE727A31A1171A600EB2CEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAE727A11A1171A600EB2CEF /* LaunchScreen.xib */; };
+		EAE728031A11721A00EB2CEF /* PFColorTemplateView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE727FE1A11721A00EB2CEF /* PFColorTemplateView.m */; };
+		EAE728041A11721A00EB2CEF /* PFColorBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE728001A11721A00EB2CEF /* PFColorBtn.m */; };
+		EAE728051A11721A00EB2CEF /* PFNoColorLbl.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE728021A11721A00EB2CEF /* PFNoColorLbl.m */; };
+		EAE7280A1A11721E00EB2CEF /* PFOptionButtonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE728071A11721E00EB2CEF /* PFOptionButtonsView.m */; };
+		EAE7280B1A11721E00EB2CEF /* PFOptionTemplateBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE728091A11721E00EB2CEF /* PFOptionTemplateBtn.m */; };
+		EAE728101A11722400EB2CEF /* PFScrollTemplatesView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE7280D1A11722400EB2CEF /* PFScrollTemplatesView.m */; };
+		EAE728111A11722400EB2CEF /* PFTemplateBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE7280F1A11722400EB2CEF /* PFTemplateBtn.m */; };
+		EAE728141A11722900EB2CEF /* PFTemplatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE728131A11722900EB2CEF /* PFTemplatesViewController.m */; };
+		EAE728171A11723200EB2CEF /* PFWriteTemplatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE728161A11723200EB2CEF /* PFWriteTemplatesViewController.m */; };
+		EAE728241A11740F00EB2CEF /* PFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE728211A11740F00EB2CEF /* PFImageView.m */; };
+		EAE728251A11740F00EB2CEF /* PFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE728231A11740F00EB2CEF /* PFScrollView.m */; };
+		EAE728311A1175E000EB2CEF /* PFBackBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE728271A1175E000EB2CEF /* PFBackBtn.m */; };
+		EAE728321A1175E000EB2CEF /* PFNextBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE728291A1175E000EB2CEF /* PFNextBtn.m */; };
+		EAE728331A1175E000EB2CEF /* PFTitleLbl.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE7282B1A1175E000EB2CEF /* PFTitleLbl.m */; };
+		EAE728341A1175E000EB2CEF /* AYUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE7282E1A1175E000EB2CEF /* AYUIButton.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EAE728351A1175E000EB2CEF /* PFUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE728301A1175E000EB2CEF /* PFUtils.m */; };
+		EAE7284A1A1179F700EB2CEF /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE728471A1179F700EB2CEF /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EAE7284B1A1179F700EB2CEF /* VPImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE728491A1179F700EB2CEF /* VPImageCropperViewController.m */; };
+		EAE7284E1A117B2B00EB2CEF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE7284D1A117B2B00EB2CEF /* Reachability.m */; };
+		EAE728511A117E3300EB2CEF /* PFImageViewCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE728501A117E3300EB2CEF /* PFImageViewCheck.m */; };
+		EAE728521A1187F800EB2CEF /* Merriweather-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = EAE7283C1A1177B600EB2CEF /* Merriweather-Black.otf */; };
+		EAE728531A1187F800EB2CEF /* Merriweather-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EAE7283D1A1177B600EB2CEF /* Merriweather-Bold.otf */; };
+		EAE728541A1187F800EB2CEF /* Merriweather-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = EAE7283E1A1177B600EB2CEF /* Merriweather-BoldItalic.otf */; };
+		EAE728551A1187F800EB2CEF /* Merriweather-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = EAE7283F1A1177B600EB2CEF /* Merriweather-HeavyItalic.otf */; };
+		EAE728561A1187F800EB2CEF /* Merriweather-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = EAE728401A1177B600EB2CEF /* Merriweather-Italic.otf */; };
+		EAE728571A1187F800EB2CEF /* Merriweather-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = EAE728411A1177B600EB2CEF /* Merriweather-Light.otf */; };
+		EAE728581A1187F800EB2CEF /* Merriweather-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = EAE728421A1177B600EB2CEF /* Merriweather-LightItalic.otf */; };
+		EAE728591A1187F800EB2CEF /* Merriweather-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = EAE728431A1177B600EB2CEF /* Merriweather-Regular.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EAE7278F1A1171A600EB2CEF /* PFTemplates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PFTemplates.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE727931A1171A600EB2CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE727941A1171A600EB2CEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAE727961A1171A600EB2CEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAE727971A1171A600EB2CEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAE7279D1A1171A600EB2CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAE7279F1A1171A600EB2CEF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAE727A21A1171A600EB2CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EAE727FD1A11721A00EB2CEF /* PFColorTemplateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFColorTemplateView.h; sourceTree = "<group>"; };
+		EAE727FE1A11721A00EB2CEF /* PFColorTemplateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFColorTemplateView.m; sourceTree = "<group>"; };
+		EAE727FF1A11721A00EB2CEF /* PFColorBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFColorBtn.h; sourceTree = "<group>"; };
+		EAE728001A11721A00EB2CEF /* PFColorBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFColorBtn.m; sourceTree = "<group>"; };
+		EAE728011A11721A00EB2CEF /* PFNoColorLbl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFNoColorLbl.h; sourceTree = "<group>"; };
+		EAE728021A11721A00EB2CEF /* PFNoColorLbl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFNoColorLbl.m; sourceTree = "<group>"; };
+		EAE728061A11721E00EB2CEF /* PFOptionButtonsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFOptionButtonsView.h; sourceTree = "<group>"; };
+		EAE728071A11721E00EB2CEF /* PFOptionButtonsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFOptionButtonsView.m; sourceTree = "<group>"; };
+		EAE728081A11721E00EB2CEF /* PFOptionTemplateBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFOptionTemplateBtn.h; sourceTree = "<group>"; };
+		EAE728091A11721E00EB2CEF /* PFOptionTemplateBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFOptionTemplateBtn.m; sourceTree = "<group>"; };
+		EAE7280C1A11722400EB2CEF /* PFScrollTemplatesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFScrollTemplatesView.h; sourceTree = "<group>"; };
+		EAE7280D1A11722400EB2CEF /* PFScrollTemplatesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFScrollTemplatesView.m; sourceTree = "<group>"; };
+		EAE7280E1A11722400EB2CEF /* PFTemplateBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFTemplateBtn.h; sourceTree = "<group>"; };
+		EAE7280F1A11722400EB2CEF /* PFTemplateBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFTemplateBtn.m; sourceTree = "<group>"; };
+		EAE728121A11722900EB2CEF /* PFTemplatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFTemplatesViewController.h; sourceTree = "<group>"; };
+		EAE728131A11722900EB2CEF /* PFTemplatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFTemplatesViewController.m; sourceTree = "<group>"; };
+		EAE728151A11723200EB2CEF /* PFWriteTemplatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFWriteTemplatesViewController.h; sourceTree = "<group>"; };
+		EAE728161A11723200EB2CEF /* PFWriteTemplatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFWriteTemplatesViewController.m; sourceTree = "<group>"; };
+		EAE728201A11740F00EB2CEF /* PFImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFImageView.h; sourceTree = "<group>"; };
+		EAE728211A11740F00EB2CEF /* PFImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFImageView.m; sourceTree = "<group>"; };
+		EAE728221A11740F00EB2CEF /* PFScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFScrollView.h; sourceTree = "<group>"; };
+		EAE728231A11740F00EB2CEF /* PFScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFScrollView.m; sourceTree = "<group>"; };
+		EAE728261A1175E000EB2CEF /* PFBackBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFBackBtn.h; sourceTree = "<group>"; };
+		EAE728271A1175E000EB2CEF /* PFBackBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFBackBtn.m; sourceTree = "<group>"; };
+		EAE728281A1175E000EB2CEF /* PFNextBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFNextBtn.h; sourceTree = "<group>"; };
+		EAE728291A1175E000EB2CEF /* PFNextBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFNextBtn.m; sourceTree = "<group>"; };
+		EAE7282A1A1175E000EB2CEF /* PFTitleLbl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFTitleLbl.h; sourceTree = "<group>"; };
+		EAE7282B1A1175E000EB2CEF /* PFTitleLbl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFTitleLbl.m; sourceTree = "<group>"; };
+		EAE7282D1A1175E000EB2CEF /* AYUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYUIButton.h; sourceTree = "<group>"; };
+		EAE7282E1A1175E000EB2CEF /* AYUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYUIButton.m; sourceTree = "<group>"; };
+		EAE7282F1A1175E000EB2CEF /* PFUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFUtils.h; sourceTree = "<group>"; };
+		EAE728301A1175E000EB2CEF /* PFUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFUtils.m; sourceTree = "<group>"; };
+		EAE728371A11763E00EB2CEF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EAE728381A11778500EB2CEF /* PFColorConstant.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFColorConstant.pch; sourceTree = "<group>"; };
+		EAE728391A11778500EB2CEF /* PFFontConstant.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFFontConstant.pch; sourceTree = "<group>"; };
+		EAE7283A1A11778500EB2CEF /* PFConstants.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFConstants.pch; sourceTree = "<group>"; };
+		EAE7283B1A11778500EB2CEF /* PFClass.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFClass.pch; sourceTree = "<group>"; };
+		EAE7283C1A1177B600EB2CEF /* Merriweather-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Black.otf"; sourceTree = "<group>"; };
+		EAE7283D1A1177B600EB2CEF /* Merriweather-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Bold.otf"; sourceTree = "<group>"; };
+		EAE7283E1A1177B600EB2CEF /* Merriweather-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-BoldItalic.otf"; sourceTree = "<group>"; };
+		EAE7283F1A1177B600EB2CEF /* Merriweather-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-HeavyItalic.otf"; sourceTree = "<group>"; };
+		EAE728401A1177B600EB2CEF /* Merriweather-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Italic.otf"; sourceTree = "<group>"; };
+		EAE728411A1177B600EB2CEF /* Merriweather-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Light.otf"; sourceTree = "<group>"; };
+		EAE728421A1177B600EB2CEF /* Merriweather-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-LightItalic.otf"; sourceTree = "<group>"; };
+		EAE728431A1177B600EB2CEF /* Merriweather-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.otf"; sourceTree = "<group>"; };
+		EAE728461A1179F700EB2CEF /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		EAE728471A1179F700EB2CEF /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		EAE728481A1179F700EB2CEF /* VPImageCropperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPImageCropperViewController.h; sourceTree = "<group>"; };
+		EAE728491A1179F700EB2CEF /* VPImageCropperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPImageCropperViewController.m; sourceTree = "<group>"; };
+		EAE7284C1A117B2B00EB2CEF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		EAE7284D1A117B2B00EB2CEF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		EAE7284F1A117E3300EB2CEF /* PFImageViewCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFImageViewCheck.h; sourceTree = "<group>"; };
+		EAE728501A117E3300EB2CEF /* PFImageViewCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFImageViewCheck.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAE7278C1A1171A600EB2CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAE727861A1171A600EB2CEF = {
+			isa = PBXGroup;
+			children = (
+				EAE727911A1171A600EB2CEF /* PFTemplates */,
+				EAE727901A1171A600EB2CEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAE727901A1171A600EB2CEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAE7278F1A1171A600EB2CEF /* PFTemplates.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAE727911A1171A600EB2CEF /* PFTemplates */ = {
+			isa = PBXGroup;
+			children = (
+				EAE728361A11762C00EB2CEF /* Libraries */,
+				EAE727961A1171A600EB2CEF /* AppDelegate.h */,
+				EAE727971A1171A600EB2CEF /* AppDelegate.m */,
+				EAE7279C1A1171A600EB2CEF /* Main.storyboard */,
+				EAE7279F1A1171A600EB2CEF /* Images.xcassets */,
+				EAE727A11A1171A600EB2CEF /* LaunchScreen.xib */,
+				EAE728151A11723200EB2CEF /* PFWriteTemplatesViewController.h */,
+				EAE728161A11723200EB2CEF /* PFWriteTemplatesViewController.m */,
+				EAE7281F1A1172A100EB2CEF /* Templates view */,
+				EAE727921A1171A600EB2CEF /* Supporting Files */,
+			);
+			path = PFTemplates;
+			sourceTree = "<group>";
+		};
+		EAE727921A1171A600EB2CEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAE727931A1171A600EB2CEF /* Info.plist */,
+				EAE727941A1171A600EB2CEF /* main.m */,
+				EAE728371A11763E00EB2CEF /* PrefixHeader.pch */,
+				EAE728381A11778500EB2CEF /* PFColorConstant.pch */,
+				EAE728391A11778500EB2CEF /* PFFontConstant.pch */,
+				EAE7283A1A11778500EB2CEF /* PFConstants.pch */,
+				EAE7283B1A11778500EB2CEF /* PFClass.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAE7281C1A11727B00EB2CEF /* Color view */ = {
+			isa = PBXGroup;
+			children = (
+				EAE727FD1A11721A00EB2CEF /* PFColorTemplateView.h */,
+				EAE727FE1A11721A00EB2CEF /* PFColorTemplateView.m */,
+				EAE727FF1A11721A00EB2CEF /* PFColorBtn.h */,
+				EAE728001A11721A00EB2CEF /* PFColorBtn.m */,
+				EAE728011A11721A00EB2CEF /* PFNoColorLbl.h */,
+				EAE728021A11721A00EB2CEF /* PFNoColorLbl.m */,
+			);
+			name = "Color view";
+			sourceTree = "<group>";
+		};
+		EAE7281D1A11728200EB2CEF /* Button options */ = {
+			isa = PBXGroup;
+			children = (
+				EAE728061A11721E00EB2CEF /* PFOptionButtonsView.h */,
+				EAE728071A11721E00EB2CEF /* PFOptionButtonsView.m */,
+				EAE728081A11721E00EB2CEF /* PFOptionTemplateBtn.h */,
+				EAE728091A11721E00EB2CEF /* PFOptionTemplateBtn.m */,
+			);
+			name = "Button options";
+			sourceTree = "<group>";
+		};
+		EAE7281E1A11728D00EB2CEF /* Scrollview templates */ = {
+			isa = PBXGroup;
+			children = (
+				EAE7280C1A11722400EB2CEF /* PFScrollTemplatesView.h */,
+				EAE7280D1A11722400EB2CEF /* PFScrollTemplatesView.m */,
+				EAE7280E1A11722400EB2CEF /* PFTemplateBtn.h */,
+				EAE7280F1A11722400EB2CEF /* PFTemplateBtn.m */,
+			);
+			name = "Scrollview templates";
+			sourceTree = "<group>";
+		};
+		EAE7281F1A1172A100EB2CEF /* Templates view */ = {
+			isa = PBXGroup;
+			children = (
+				EAE728121A11722900EB2CEF /* PFTemplatesViewController.h */,
+				EAE728131A11722900EB2CEF /* PFTemplatesViewController.m */,
+				EAE7281E1A11728D00EB2CEF /* Scrollview templates */,
+				EAE7281D1A11728200EB2CEF /* Button options */,
+				EAE7281C1A11727B00EB2CEF /* Color view */,
+			);
+			name = "Templates view";
+			sourceTree = "<group>";
+		};
+		EAE7282C1A1175E000EB2CEF /* AYUIButton-master */ = {
+			isa = PBXGroup;
+			children = (
+				EAE7282D1A1175E000EB2CEF /* AYUIButton.h */,
+				EAE7282E1A1175E000EB2CEF /* AYUIButton.m */,
+			);
+			path = "AYUIButton-master";
+			sourceTree = "<group>";
+		};
+		EAE728361A11762C00EB2CEF /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				EAE7284F1A117E3300EB2CEF /* PFImageViewCheck.h */,
+				EAE728501A117E3300EB2CEF /* PFImageViewCheck.m */,
+				EAE7284C1A117B2B00EB2CEF /* Reachability.h */,
+				EAE7284D1A117B2B00EB2CEF /* Reachability.m */,
+				EAE728451A1179F700EB2CEF /* VPImageCropper */,
+				EAE728441A1177BC00EB2CEF /* Merriweather */,
+				EAE728261A1175E000EB2CEF /* PFBackBtn.h */,
+				EAE728271A1175E000EB2CEF /* PFBackBtn.m */,
+				EAE728281A1175E000EB2CEF /* PFNextBtn.h */,
+				EAE728291A1175E000EB2CEF /* PFNextBtn.m */,
+				EAE7282A1A1175E000EB2CEF /* PFTitleLbl.h */,
+				EAE7282B1A1175E000EB2CEF /* PFTitleLbl.m */,
+				EAE7282C1A1175E000EB2CEF /* AYUIButton-master */,
+				EAE7282F1A1175E000EB2CEF /* PFUtils.h */,
+				EAE728301A1175E000EB2CEF /* PFUtils.m */,
+				EAE728201A11740F00EB2CEF /* PFImageView.h */,
+				EAE728211A11740F00EB2CEF /* PFImageView.m */,
+				EAE728221A11740F00EB2CEF /* PFScrollView.h */,
+				EAE728231A11740F00EB2CEF /* PFScrollView.m */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		EAE728441A1177BC00EB2CEF /* Merriweather */ = {
+			isa = PBXGroup;
+			children = (
+				EAE7283C1A1177B600EB2CEF /* Merriweather-Black.otf */,
+				EAE7283D1A1177B600EB2CEF /* Merriweather-Bold.otf */,
+				EAE7283E1A1177B600EB2CEF /* Merriweather-BoldItalic.otf */,
+				EAE7283F1A1177B600EB2CEF /* Merriweather-HeavyItalic.otf */,
+				EAE728401A1177B600EB2CEF /* Merriweather-Italic.otf */,
+				EAE728411A1177B600EB2CEF /* Merriweather-Light.otf */,
+				EAE728421A1177B600EB2CEF /* Merriweather-LightItalic.otf */,
+				EAE728431A1177B600EB2CEF /* Merriweather-Regular.otf */,
+			);
+			name = Merriweather;
+			sourceTree = "<group>";
+		};
+		EAE728451A1179F700EB2CEF /* VPImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				EAE728461A1179F700EB2CEF /* NSData+Base64.h */,
+				EAE728471A1179F700EB2CEF /* NSData+Base64.m */,
+				EAE728481A1179F700EB2CEF /* VPImageCropperViewController.h */,
+				EAE728491A1179F700EB2CEF /* VPImageCropperViewController.m */,
+			);
+			path = VPImageCropper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAE7278E1A1171A600EB2CEF /* PFTemplates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE727B21A1171A600EB2CEF /* Build configuration list for PBXNativeTarget "PFTemplates" */;
+			buildPhases = (
+				EAE7278B1A1171A600EB2CEF /* Sources */,
+				EAE7278C1A1171A600EB2CEF /* Frameworks */,
+				EAE7278D1A1171A600EB2CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PFTemplates;
+			productName = PFTemplates;
+			productReference = EAE7278F1A1171A600EB2CEF /* PFTemplates.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAE727871A1171A600EB2CEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Paolo Furlan";
+				TargetAttributes = {
+					EAE7278E1A1171A600EB2CEF = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = EAE7278A1A1171A600EB2CEF /* Build configuration list for PBXProject "PFTemplates" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAE727861A1171A600EB2CEF;
+			productRefGroup = EAE727901A1171A600EB2CEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAE7278E1A1171A600EB2CEF /* PFTemplates */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAE7278D1A1171A600EB2CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE728521A1187F800EB2CEF /* Merriweather-Black.otf in Resources */,
+				EAE728531A1187F800EB2CEF /* Merriweather-Bold.otf in Resources */,
+				EAE728541A1187F800EB2CEF /* Merriweather-BoldItalic.otf in Resources */,
+				EAE728551A1187F800EB2CEF /* Merriweather-HeavyItalic.otf in Resources */,
+				EAE728561A1187F800EB2CEF /* Merriweather-Italic.otf in Resources */,
+				EAE728571A1187F800EB2CEF /* Merriweather-Light.otf in Resources */,
+				EAE728581A1187F800EB2CEF /* Merriweather-LightItalic.otf in Resources */,
+				EAE728591A1187F800EB2CEF /* Merriweather-Regular.otf in Resources */,
+				EAE7279E1A1171A600EB2CEF /* Main.storyboard in Resources */,
+				EAE727A31A1171A600EB2CEF /* LaunchScreen.xib in Resources */,
+				EAE727A01A1171A600EB2CEF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAE7278B1A1171A600EB2CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE7280B1A11721E00EB2CEF /* PFOptionTemplateBtn.m in Sources */,
+				EAE7280A1A11721E00EB2CEF /* PFOptionButtonsView.m in Sources */,
+				EAE728171A11723200EB2CEF /* PFWriteTemplatesViewController.m in Sources */,
+				EAE728031A11721A00EB2CEF /* PFColorTemplateView.m in Sources */,
+				EAE728051A11721A00EB2CEF /* PFNoColorLbl.m in Sources */,
+				EAE728101A11722400EB2CEF /* PFScrollTemplatesView.m in Sources */,
+				EAE728311A1175E000EB2CEF /* PFBackBtn.m in Sources */,
+				EAE728141A11722900EB2CEF /* PFTemplatesViewController.m in Sources */,
+				EAE728351A1175E000EB2CEF /* PFUtils.m in Sources */,
+				EAE728511A117E3300EB2CEF /* PFImageViewCheck.m in Sources */,
+				EAE728341A1175E000EB2CEF /* AYUIButton.m in Sources */,
+				EAE728331A1175E000EB2CEF /* PFTitleLbl.m in Sources */,
+				EAE728321A1175E000EB2CEF /* PFNextBtn.m in Sources */,
+				EAE728111A11722400EB2CEF /* PFTemplateBtn.m in Sources */,
+				EAE7284E1A117B2B00EB2CEF /* Reachability.m in Sources */,
+				EAE728251A11740F00EB2CEF /* PFScrollView.m in Sources */,
+				EAE728041A11721A00EB2CEF /* PFColorBtn.m in Sources */,
+				EAE727981A1171A600EB2CEF /* AppDelegate.m in Sources */,
+				EAE7284B1A1179F700EB2CEF /* VPImageCropperViewController.m in Sources */,
+				EAE7284A1A1179F700EB2CEF /* NSData+Base64.m in Sources */,
+				EAE727951A1171A600EB2CEF /* main.m in Sources */,
+				EAE728241A11740F00EB2CEF /* PFImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAE7279C1A1171A600EB2CEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAE7279D1A1171A600EB2CEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAE727A11A1171A600EB2CEF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAE727A21A1171A600EB2CEF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAE727B01A1171A600EB2CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAE727B11A1171A600EB2CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAE727B31A1171A600EB2CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PFTemplates/PrefixHeader.pch;
+				INFOPLIST_FILE = PFTemplates/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAE727B41A1171A600EB2CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PFTemplates/PrefixHeader.pch;
+				INFOPLIST_FILE = PFTemplates/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAE7278A1A1171A600EB2CEF /* Build configuration list for PBXProject "PFTemplates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE727B01A1171A600EB2CEF /* Debug */,
+				EAE727B11A1171A600EB2CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE727B21A1171A600EB2CEF /* Build configuration list for PBXNativeTarget "PFTemplates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE727B31A1171A600EB2CEF /* Debug */,
+				EAE727B41A1171A600EB2CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAE727871A1171A600EB2CEF /* Project object */;
+}

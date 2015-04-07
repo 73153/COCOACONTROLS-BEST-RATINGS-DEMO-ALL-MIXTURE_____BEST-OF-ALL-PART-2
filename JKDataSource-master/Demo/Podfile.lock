@@ -1,0 +1,14 @@
+PODS:
+  - JKDataSource (0.0.1)
+
+DEPENDENCIES:
+  - JKDataSource (from `../`)
+
+EXTERNAL SOURCES:
+  JKDataSource:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JKDataSource: a3c281e3e98c7a11b36ae4ebf27f003ffa63665c
+
+COCOAPODS: 0.24.0

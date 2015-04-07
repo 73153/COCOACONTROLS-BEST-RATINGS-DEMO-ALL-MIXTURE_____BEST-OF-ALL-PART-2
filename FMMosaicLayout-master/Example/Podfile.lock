@@ -1,0 +1,14 @@
+PODS:
+  - FMMosaicLayout (0.1.1)
+
+DEPENDENCIES:
+  - FMMosaicLayout (from `../`)
+
+EXTERNAL SOURCES:
+  FMMosaicLayout:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FMMosaicLayout: 54c5e40fa93cdfc1f245bea9d59ce6faa27fbfea
+
+COCOAPODS: 0.36.0.rc.1

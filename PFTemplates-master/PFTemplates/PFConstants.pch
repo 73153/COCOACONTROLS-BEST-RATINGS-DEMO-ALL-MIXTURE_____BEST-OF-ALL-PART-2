@@ -1,0 +1,26 @@
+//
+//  TLConstants.pch
+//  20lines
+//
+//  Created by Paolo Furlan on 04/09/14.
+//  Copyright (c) 2014 Paolo Furlan. All rights reserved.
+//
+
+#ifndef _0lines_TLConstants_pch
+#define _0lines_TLConstants_pch
+
+#define kWidth  [[UIScreen mainScreen] applicationFrame].size.width
+#define kHeight  ([[UIScreen mainScreen] applicationFrame].size.height+20)
+
+#define rgb2Color(r, g, b)  [UIColor colorWithRed:((r) / 255.0) green:((g) / 255.0) blue:((b) / 255.0) alpha:1.0]
+
+
+#define getBottomView(view) view.frame.size.height+view.frame.origin.y
+#define getRightView(view) view.frame.size.width+view.frame.origin.x
+
+#define allTrim( object ) [object stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]]
+
+#define toStr( object ) [NSString stringWithFormat:@"%@", object]
+
+
+#endif

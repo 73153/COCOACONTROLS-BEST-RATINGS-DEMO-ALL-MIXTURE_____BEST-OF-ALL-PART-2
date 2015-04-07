@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  PFTemplates
+//
+//  Created by Paolo Furlan on 10/11/14.
+//  Copyright (c) 2014 Paolo Furlan. All rights reserved.
+//
+
+#ifndef PFTemplates_PrefixHeader_pch
+#define PFTemplates_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "PFColorConstant.pch"
+#import "PFFontConstant.pch"
+#import "PFConstants.pch"
+#import "PFClass.pch"
+
+#endif

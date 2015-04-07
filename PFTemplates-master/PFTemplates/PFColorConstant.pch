@@ -1,0 +1,34 @@
+//
+//  ColorConstant.pch
+//  20lines
+//
+//  Created by Paolo Furlan on 04/09/14.
+//  Copyright (c) 2014 Paolo Furlan. All rights reserved.
+//
+
+#ifndef _0lines_ColorConstant_pch
+#define _0lines_ColorConstant_pch
+
+
+
+
+
+#define colorNavigationBar [UIColor colorWithRed:255.0/255.0 green:98.0/255.0 blue:98.0/255.0 alpha:1.0]
+
+#define colorTextBrown [UIColor colorWithRed:77.0/255.0 green:47.0/255.0 blue:26.0/255.0 alpha:1.0]
+
+#define colorBackgroundBlackStory [UIColor colorWithRed:69.0/255.0 green:69.0/255.0 blue:69.0/255.0 alpha:1.0]
+#define colorBackgroundBrownStory [UIColor colorWithRed:240.0/255.0 green:239.0/255.0 blue:230.0/255.0 alpha:1.0]
+
+#define colorTextBlack [UIColor colorWithRed:74.0/255.0 green:74.0/255.0 blue:74.0/255.0 alpha:1.0]
+#define colorTextBlackLight [UIColor colorWithRed:126.0/255.0 green:126.0/255.0 blue:126.0/255.0 alpha:1.0]
+
+
+#define colorGray100 [UIColor colorWithRed:100.0/255.0 green:100.0/255.0 blue:100.0/255.0 alpha:1.0]
+#define colorGray120 [UIColor colorWithRed:120.0/255.0 green:120.0/255.0 blue:120.0/255.0 alpha:1.0]
+#define colorGray230 [UIColor colorWithRed:230.0/255.0 green:230.0/255.0 blue:230.0/255.0 alpha:1.0]
+#define colorGray245 [UIColor colorWithRed:245.0/255.0 green:245.0/255.0 blue:245.0/255.0 alpha:1.0]
+
+
+
+#endif
